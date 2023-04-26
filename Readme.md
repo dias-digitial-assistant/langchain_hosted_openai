@@ -12,5 +12,6 @@ Each team gets a token (not OpenAI token, but token to the server), which can th
 - Each team will be given a token and the URL, port of the server.
 - Port forward to port 'X' on the local machine.
 - Clone this repo
-- Create a '''.env''' file in the same folder and define the variables.
+- Create a ```.env``` file in the same folder and define the variables.
 - Run the test files to check Text generation and the Embedding generation.
+
