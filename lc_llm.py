@@ -38,7 +38,7 @@ class HostedOpenAIChat(LLM):
         self.server_url+"/api/completion/",
         json={
             "prompt": [{"role": "user", "content": prompt}],
-            "model_name": "gpt-3.5-turbo",
+            "model_name": self.model,
             "token":self.uid,
             "temperature": self.temperature
             
