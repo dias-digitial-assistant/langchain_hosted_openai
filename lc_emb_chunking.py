@@ -125,5 +125,6 @@ class HostedOpenAIEmbeddings(BaseModel, Embeddings):
         Returns:
             Embeddings for the text.
         """
-        return self._get_len_safe_embeddings([text])
+        embs = self._get_len_safe_embeddings([text])
+        return embs[0]
     
